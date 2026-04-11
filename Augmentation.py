@@ -3,10 +3,10 @@ import numpy as np
 import albumentations as A
 import cv2
 
-patchescena = np.load("RESERVA/2025/11 07/CENA_PATCHES.npy")
-patchesmascara = np.load("RESERVA/2025/11 07/MASCARA_PATCHES.npy")
+patchescena = np.load("CAMINHO/CENA.NPY")
+patchesmascara = np.load("CAMINHO/MASCARA.npy")
 
-pasta_saida = "RESERVA/2025/11 07/"
+pasta_saida = "PASTA SAIDA"
 
 print(f"Shape dos patches CENA: {patchescena.shape}")
 print(f"Shape dos patches MASCARA: {patchesmascara.shape}")

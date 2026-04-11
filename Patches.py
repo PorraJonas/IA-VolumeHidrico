@@ -16,11 +16,10 @@ max_nodata_frac = 0.3
 
 def patch_valido(patch_cena, patch_mask, max_nodata_frac=0.3, max_cloud_frac=0.3):
 
-    # pixels inválidos se QUALQUER banda for NaN
+
     nodata_mask = np.isnan(patch_cena).any(axis=-1)
     frac_nodata = nodata_mask.mean()
 
-    # nuvem explícita
     cloud_mask = patch_mask == 1
     frac_cloud = cloud_mask.mean()
 
