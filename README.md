@@ -14,24 +14,26 @@ Os resultados obtidos nesse projeto foram transformados em um artigo acadêmico,
 
 Link: "placeholder"
 
-### 🔹 Etapas principais:
+### Etapas principais:
 - Coleta de imagens (2021–2025)
 - Pré-processamento dos dados
 - Treinamento da rede neural
 - Segmentação do espelho d'água
 - Estimativa do volume hídrico com base na área identificada
 
-### Métricas de segmentação:
+# Resultados obtidos pelo modelo
+
+## Métricas de segmentação obtidas:
 - **Coeficiente de Dice:** 93,4%
 - **Intersection over Union (IoU):** 86,6%
 
-### Métricas de estimativa de volume:
+## Métricas de estimativa de volume na comparação com dados oficiais:
 - **MAPE:** 5,54%
 - **RMSE:** 6,99%
 - **Bias:** -0,14%
 - **NSE:** 0,950
 
-## Aplicações
+## Possiveis aplicações da rede
 
 - Monitoramento hídrico automatizado
 - Apoio à gestão de recursos hídricos
