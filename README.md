@@ -12,7 +12,7 @@ Os resultados obtidos nesse projeto foram transformados em um artigo acadêmico,
 
 ## Link para o artigo completo
 
-Link: "placeholder"
+Link: Artigo ainda sem link oficial.
 
 ### Etapas principais:
 - Coleta de imagens (2021–2025)
