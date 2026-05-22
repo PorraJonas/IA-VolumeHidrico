@@ -1,12 +1,12 @@
 # Estimativa de Volume Hídrico utilizando Deep Learning (U-Net)
 
-Este repositório apresenta um projeto de **estimativa de volume hídrico em reservatórios** utilizando técnicas de **Deep Learning**, com foco na arquitetura **U-Net** aplicada a imagens de sensoriamento remoto.
+Este repositório apresenta um projeto de estimativa de volume hídrico em reservatórios utilizando técnicas de Deep Learning, com foco na arquitetura U-Net aplicada a imagens de sensoriamento remoto.
 
 ## Sobre o Projeto
 
-O objetivo deste trabalho é desenvolver um modelo capaz de **estimar automaticamente o volume de água de um reservatório**, reduzindo a dependência de métodos manuais tradicionalmente utilizados por órgãos de monitoramento hídrico.
+O objetivo deste trabalho é desenvolver um modelo capaz de estimar automaticamente o volume de água de um reservatório, reduzindo a dependência de métodos manuais tradicionalmente utilizados por órgãos de monitoramento hídrico.
 
-Como estudo de caso, foi utilizado o **Açude de Orós**, localizado no estado do Ceará, um dos principais reservatórios da região Nordeste.
+Como estudo de caso, foi utilizado o Açude de Orós, localizado no estado do Ceará, um dos principais reservatórios da região Nordeste.
 
 Os resultados obtidos nesse projeto foram transformados em um artigo acadêmico, submetido ao VII Forum Internacional do Semiárido.
 
@@ -19,7 +19,8 @@ Link: Artigo ainda sem link oficial.
 - Pré-processamento dos dados
 - Treinamento da rede neural
 - Segmentação do espelho d'água
-- Estimativa do volume hídrico com base na área identificada
+- Calcular a área estimada em (Km²)
+- Aplicar interpolação para converter o valor obtido para volume através das curvas de CAV do reservatório
 
 # Resultados obtidos pelo modelo
 
