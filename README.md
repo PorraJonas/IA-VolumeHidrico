@@ -1,4 +1,4 @@
-# Estimativa de Volume Hídrico com Deep Learning (U-Net)
+# Estimativa de Volume Hídrico utilizando Deep Learning (U-Net)
 
 Este repositório apresenta um projeto de **estimativa de volume hídrico em reservatórios** utilizando técnicas de **Deep Learning**, com foco na arquitetura **U-Net** aplicada a imagens de sensoriamento remoto.
 
